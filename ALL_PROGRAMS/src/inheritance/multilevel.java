@@ -1,6 +1,7 @@
 package inheritance;
 
 
+// multilevel inheritence
 
 class a {
     void printa(){
