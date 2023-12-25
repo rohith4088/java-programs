@@ -5,7 +5,7 @@ package generics;
 class p{
     String name  = "rohith";
     public p() {
-        System.out.println(" insde super class  conrtictor");
+        System.out.println(" insde super class  constructor");
     }
 
     void printp(){
