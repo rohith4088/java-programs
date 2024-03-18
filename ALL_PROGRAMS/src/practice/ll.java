@@ -46,6 +46,19 @@ public class ll {
         System.out.println("null");
     }
     public void deleteFirst(){
+        if (head ==  null){
+            System.out.println("the linked list is empty");
+            return;
+        }
+        head = head.next;
+    }
+    public void deleteLast(int data){
+        if(head == null){
+            System.out.println("the linked list is empty");
+            return;   
+        }
+        Node previousnode = new Node(data);
         
     }
 }
+
